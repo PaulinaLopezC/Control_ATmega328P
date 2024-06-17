@@ -3,6 +3,7 @@ Proyecto embebido con conexión serial Raspberry Pi - Microcontrolador ATMega328
 
 Github complementario con la parte del Software: https://github.com/Agui6106/Linux_ATMega328P_Embebed_Game
 
+
 Se desarrollo un sistema embebido con la palca de desarrollo Raspberry Pi 4 y el microcontrolador ATMega328P para implementar una consola de videojuegos con comandos con nuestro control reflejado en nuestro videojuego. 
 
 Para el desarrollo del software, se utiliza TKInter una librería de Python para desarrollar la interfaz gráfica de la aplicación, en esta  se implementaron 4 diferentes funciones estas son las siguientes: La configuración de conexión al control donde ajustamos el puerto y el Baudrate del control, así mismo hay un apartado donde se muestran los créditos correspondientes a los desarrolladores de los juegos por otra parte, la consola es capaz de registrar los scores más altos que el jugador obtenga en cada videojuego, así como la opción de subir estos datos a un servidor web programado por nosotros utilizando la librería FastAPI de Python. 

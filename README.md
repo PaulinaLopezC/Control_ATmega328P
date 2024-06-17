@@ -1,4 +1,5 @@
-Consola de Videojuegos Hardware (Diseño de Sistemas en Chip TE2003B)
+# Control_ATMega328P_Embedded_Game
+Proyecto embebido con conexión serial Raspberry Pi - Microcontrolador ATMega328P Hardware (Diseño de Sistemas en Chip TE2003B)
 
 Github complementario con la parte del Software: https://github.com/Agui6106/Linux_ATMega328P_Embebed_Game
 

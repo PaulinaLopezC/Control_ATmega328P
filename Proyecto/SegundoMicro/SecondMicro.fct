@@ -1,0 +1,4 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"SecondMicro.c" LINE:50
+SetupLCD DSTACK_USAGE:13 DSTACK_LEVEL:13 FILE:"C:\cvavr\inc\display.h" LINE:30
+WriteComandLCD DSTACK_USAGE:2 DSTACK_LEVEL:15 FILE:"C:\cvavr\inc\display.h" LINE:86
+SendDataBitsLCD DSTACK_USAGE:1 DSTACK_LEVEL:16 FILE:"C:\cvavr\inc\display.h" LINE:66

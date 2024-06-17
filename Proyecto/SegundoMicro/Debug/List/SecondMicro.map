@@ -1,0 +1,44 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+cursor                                                                            0x0300       1
+melodyPacMan                                                                      0x0301     124
+notesPacMan                                                                       0x037D       2
+wholenotePacMan                                                                   0x037F       2
+dividerPacMan                                                                     0x0381       2
+noteDurationPacMan                                                                0x0383       2
+melodyShoot                                                                       0x0385      16
+notesShoot                                                                        0x0395       2
+wholenoteShoot                                                                    0x0397       2
+dividerShoot                                                                      0x0399       2
+noteDurationShoot                                                                 0x039B       2
+Corazon                                                                           0x039D       8
+Equis                                                                             0x03A5       8
+xpos                                                                              0x03AD       2
+ypos                                                                              0x03AF       2
+thisNoteA                                                                         0x03B1       2
+thisNoteB                                                                         0x03B3       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SetupLCD                                                                          0x000DC     42
+PulseEn                                                                           0x00106      3
+SendDataBitsLCD                                                                   0x00109     26
+WriteComandLCD                                                                    0x00123      9
+CharLCD                                                                           0x0012C      9
+StringLCD                                                                         0x00135     25
+MoveCursor                                                                        0x0014E     31
+CreateChar                                                                        0x0016D     27
+tono                                                                              0x00188     39
+noTono                                                                            0x001AF      5
+read_adc                                                                          0x001B4     28
+main                                                                              0x001D0    307

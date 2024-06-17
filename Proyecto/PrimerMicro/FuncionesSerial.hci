@@ -1,0 +1,6 @@
+VERSION:3 SOURCE_TIMESTAMP:58CC5291
+NODE:I LEVEL:0 LINE:1 "C:\cvavr\inc\mega328p.h"
+NODE:I LEVEL:0 LINE:2 "C:\cvavr\inc\io.h"
+NODE:F LEVEL:0 LINE:7 "UART_read(void)"
+NODE:F LEVEL:0 LINE:16 "UART_write(unsigned char caracter)"
+NODE:F LEVEL:0 LINE:23 "UART_write_txt(unsigned char * cadena)"

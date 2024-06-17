@@ -1,0 +1,65 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+glcd_state                                                                        0x03AC      29
+cursor                                                                            0x03C9       1
+voltDigitalX                                                                      0x03CA       2
+voltDigitalY                                                                      0x03CC       2
+dis1                                                                              0x03CE       2
+dis2                                                                              0x03D0       2
+dis3                                                                              0x03D2       2
+dis4                                                                              0x03D4       2
+i                                                                                 0x03D6       2
+juego1                                                                            0x03D8       2
+play                                                                              0x03DA       2
+vidas                                                                             0x03DC       2
+dato                                                                              0x03DE       1
+gfx_addr                                                                          0x03DF       2
+gfx_buffer                                                                        0x03E1     504
+_seed                                                                             0x05D9       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+UART_read                                                                         0x006FB     10
+UART_write                                                                        0x00705      7
+UART_write_txt                                                                    0x0070C     17
+read_adc                                                                          0x0071D     28
+main                                                                              0x00739    494
+pcd8544_delay_G100                                                                0x00927      1
+pcd8544_wrbus_G100                                                                0x00928     24
+pcd8544_wrcmd                                                                     0x00940      6
+pcd8544_wrdata_G100                                                               0x00946      6
+pcd8544_setaddr_G100                                                              0x0094C     23
+pcd8544_gotoxy                                                                    0x00963     14
+pcd8544_rdbyte                                                                    0x00971     14
+pcd8544_wrbyte                                                                    0x0097F     11
+glcd_init                                                                         0x0098A    127
+glcd_display                                                                      0x00A09     10
+glcd_clear                                                                        0x00A13     30
+pcd8544_wrmasked_G100                                                             0x00A31     57
+glcd_block                                                                        0x00A6A    490
+glcd_clipx                                                                        0x00C54     21
+glcd_clipy                                                                        0x00C69     19
+glcd_imagesize                                                                    0x00C7C     44
+glcd_putimagef                                                                    0x00CA8     46
+glcd_moveto                                                                       0x00CD6     13
+putchar                                                                           0x00CE3     10
+put_usart_G103                                                                    0x00CED     10
+_print_G103                                                                       0x00CF7    308
+printf                                                                            0x00E2B     37
+memset                                                                            0x00E50     16
+strlen                                                                            0x00E60     12
+strlenf                                                                           0x00E6C     13
+glcd_getmask                                                                      0x00E79     11
+glcd_mappixcolor1bit                                                              0x00E84     40
+glcd_readmem                                                                      0x00EAC     31
+glcd_writemem                                                                     0x00ECB     31
